@@ -13,13 +13,17 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^4.0.16",
     "@vercel/connect": "0.2.2",
     "ai": "^7.0.26",
     "eve": "^0.24.6",
+    "resend": "^6.17.2",
+    "workflow": "^4.6.0",
     "zod": "4.4.3"
   },
   "devDependencies": {
     "@types/node": "24.x",
+    "microsandbox": "^0.5.10",
     "typescript": "7.0.2"
   },
   "overrides": {
@@ -28,5 +32,4 @@
   "engines": {
     "node": "24.x"
   }
-
 }
